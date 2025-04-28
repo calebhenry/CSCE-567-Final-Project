@@ -1,0 +1,43 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f4f4f9;
+	color: #333;
+	line-height: 1.6;
+}
+
+h3 {
+	text-align: center;
+	color: #2c3e50;
+	margin-top: 20px;
+	font-size: 2rem;
+}
+
+p {
+	text-align: center;
+	font-size: 1.2rem;
+	margin: 10px 20px;
+	color: #555;
+}
+
+#shiny-app iframe {
+	border: 2px solid #2c3e50;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	margin: 20px auto;
+	display: block;
+	max-width: 90%;
+}
+
+#tableau-facility-story,
+#tableau-stellar-story {
+	margin: 30px auto;
+	max-width: 90%;
+	background-color: #ffffff;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	padding: 15px;
+	align-items: center;
+}
