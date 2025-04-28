@@ -4,137 +4,169 @@
 		<link rel="stylesheet" href="styles.css" />
 	</head>
 	<body>
-		<h3>Exoplanet Report</h3>
-		<p>
-			This website exists to inform those interested in astronomy about
-			how we find exoplanets, how that has changed over time, and the
-			results of those observations. All data on this page can be found
-			here at the
-			<a
-				href="https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=PS"
-				>NASA Exoplanet Archive</a
-			>.
-		</p>
-		<div class="container" id="tableau-facility-story">
+		<div class="header">
+			<h3>Exoplanet Report</h3>
+		</div>
+		<div class="container">
 			<p>
-				Below is a a set of visualizations that show information about
-				the facilities that observe exoplanets. You can interact with
-				these by clicking through the two tabs, clicking on parts of the
-				legend, as well as hovering over points.There are a few key
-				takeaways here. Firstly, we can see that the vast majority of
-				these observations are made from space, specifically using the
-				transit method, which tracks stars dimming as a planet passes in
-				front of them. We also see that the only method used by space
-				telescopes is tracking transits, and all other methods are done
-				from the ground. This leads us to believe that space telescopes
-				are responsible for most observations. The Kepler Space
-				Telescope is responsible for a magnitude more planetary
-				discoveries than pretty much anything else. We see that K2 and
-				TESS, two other telescopes, also peak off the axis, but nothing
-				near the scale of Kepler. The final thing we see for this is
-				that the scopes can see a wide variety of spectral types.
+				This website exists to inform those interested in astronomy
+				about how we find exoplanets, how that has changed over time,
+				and the results of those observations. All data on this page can
+				be found here at the
+				<a
+					href="https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=PS"
+					>NASA Exoplanet Archive</a
+				>.
 			</p>
-			<div id="viz1745797485222">
-				<noscript
-					><a href="#"
-						><img
-							alt="Facility Story "
-							src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fa&#47;FacilityStory_17457973427520&#47;FacilityStory&#47;1_rss.png"
-							style="border: none" /></a></noscript
-				><object class="tableauViz" style="display: none">
-					<param
-						name="host_url"
-						value="https%3A%2F%2Fpublic.tableau.com%2F"
-					/>
-					<param name="embed_code_version" value="3" />
-					<param name="site_root" value="" />
-					<param
-						name="name"
-						value="FacilityStory_17457973427520&#47;FacilityStory"
-					/>
-					<param name="tabs" value="no" />
-					<param name="toolbar" value="yes" />
-					<param
-						name="static_image"
-						value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fa&#47;FacilityStory_17457973427520&#47;FacilityStory&#47;1.png"
-					/>
-					<param name="animate_transition" value="yes" />
-					<param name="display_static_image" value="yes" />
-					<param name="display_spinner" value="yes" />
-					<param name="display_overlay" value="yes" />
-					<param name="display_count" value="yes" />
-					<param name="language" value="en-US" />
-				</object>
+		</div>
+		<div class="container" id="tableau-facility-story">
+			<div class="container-header">
+				<h5>Facility Information</h5>
 			</div>
-			<script type="text/javascript">
-				var divElement = document.getElementById("viz1745797485222");
-				var vizElement = divElement.getElementsByTagName("object")[0];
-				vizElement.style.width = "1016px";
-				vizElement.style.height = "991px";
-				var scriptElement = document.createElement("script");
-				scriptElement.src =
-					"https://public.tableau.com/javascripts/api/viz_v1.js";
-				vizElement.parentNode.insertBefore(scriptElement, vizElement);
-			</script>
+			<div class="flex">
+				<p>
+					This is a a set of visualizations that show information
+					about the facilities that observe exoplanets. You can
+					interact with these by clicking through the two tabs,
+					clicking on parts of the legend, as well as hovering over
+					points.There are a few key takeaways here. Firstly, we can
+					see that the vast majority of these observations are made
+					from space, specifically using the transit method, which
+					tracks stars dimming as a planet passes in front of them. We
+					also see that the only method used by space telescopes is
+					tracking transits, and all other methods are done from the
+					ground. This leads us to believe that space telescopes are
+					responsible for most observations. The Kepler Space
+					Telescope is responsible for a magnitude more planetary
+					discoveries than pretty much anything else. We see that K2
+					and TESS, two other telescopes, also peak off the axis, but
+					nothing near the scale of Kepler. The final thing we see for
+					this is that the scopes can see a wide variety of spectral
+					types.
+				</p>
+				<div id="viz1745797485222">
+					<noscript
+						><a href="#"
+							><img
+								alt="Facility Story "
+								src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fa&#47;FacilityStory_17457973427520&#47;FacilityStory&#47;1_rss.png"
+								style="border: none" /></a></noscript
+					><object class="tableauViz" style="display: none">
+						<param
+							name="host_url"
+							value="https%3A%2F%2Fpublic.tableau.com%2F"
+						/>
+						<param name="embed_code_version" value="3" />
+						<param name="site_root" value="" />
+						<param
+							name="name"
+							value="FacilityStory_17457973427520&#47;FacilityStory"
+						/>
+						<param name="tabs" value="no" />
+						<param name="toolbar" value="yes" />
+						<param
+							name="static_image"
+							value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fa&#47;FacilityStory_17457973427520&#47;FacilityStory&#47;1.png"
+						/>
+						<param name="animate_transition" value="yes" />
+						<param name="display_static_image" value="yes" />
+						<param name="display_spinner" value="yes" />
+						<param name="display_overlay" value="yes" />
+						<param name="display_count" value="yes" />
+						<param name="language" value="en-US" />
+					</object>
+				</div>
+				<script type="text/javascript">
+					var divElement =
+						document.getElementById("viz1745797485222");
+					var vizElement =
+						divElement.getElementsByTagName("object")[0];
+					vizElement.style.width = "1016px";
+					vizElement.style.height = "991px";
+					var scriptElement = document.createElement("script");
+					scriptElement.src =
+						"https://public.tableau.com/javascripts/api/viz_v1.js";
+					vizElement.parentNode.insertBefore(
+						scriptElement,
+						vizElement
+					);
+				</script>
+			</div>
 		</div>
 		<div class="container" id="tableau-stellar-story">
-			<p>
-				Below is a a set of visualizations that show information about
-				stars, the planets that orbit them, and how we have gotten
-				better at finding them over time. You can interact with these by
-				clicking through the three tabs, clicking on parts of the
-				legend, as well as hovering over points. There are a few key
-				takeaways here. Firstly, we have gotten better and better at
-				seeing smaller stars and planets over time, most likely due to
-				better technology. We also see that the combination of one
-				planet and one star is the most common, and that a system is
-				likely to have more planets than stars. It is also evident that
-				there is a positive correlation between the mass of a star and
-				the temperature of the star, as well as between the size of a
-				star/planet and the length of time it takes to transit (pass in
-				front of the star).
-			</p>
-			<div id="viz1745797587981">
-				<noscript
-					><a href="#"
-						><img
-							alt="Stellar Story "
-							src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;St&#47;StellarStory&#47;StellarStory&#47;1_rss.png"
-							style="border: none" /></a></noscript
-				><object class="tableauViz" style="display: none">
-					<param
-						name="host_url"
-						value="https%3A%2F%2Fpublic.tableau.com%2F"
-					/>
-					<param name="embed_code_version" value="3" />
-					<param name="site_root" value="" />
-					<param name="name" value="StellarStory&#47;StellarStory" />
-					<param name="tabs" value="no" />
-					<param name="toolbar" value="yes" />
-					<param
-						name="static_image"
-						value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;St&#47;StellarStory&#47;StellarStory&#47;1.png"
-					/>
-					<param name="animate_transition" value="yes" />
-					<param name="display_static_image" value="yes" />
-					<param name="display_spinner" value="yes" />
-					<param name="display_overlay" value="yes" />
-					<param name="display_count" value="yes" />
-					<param name="language" value="en-US" />
-				</object>
+			<div class="container-header">
+				<h5>Stellar Information</h5>
 			</div>
-			<script type="text/javascript">
-				var divElement = document.getElementById("viz1745797587981");
-				var vizElement = divElement.getElementsByTagName("object")[0];
-				vizElement.style.width = "1016px";
-				vizElement.style.height = "991px";
-				var scriptElement = document.createElement("script");
-				scriptElement.src =
-					"https://public.tableau.com/javascripts/api/viz_v1.js";
-				vizElement.parentNode.insertBefore(scriptElement, vizElement);
-			</script>
+			<div class="flex">
+				<p>
+					This is a a set of visualizations that show information
+					about stars, the planets that orbit them, and how we have
+					gotten better at finding them over time. You can interact
+					with these by clicking through the three tabs, clicking on
+					parts of the legend, as well as hovering over points. There
+					are a few key takeaways here. Firstly, we have gotten better
+					and better at seeing smaller stars and planets over time,
+					most likely due to better technology. We also see that the
+					combination of one planet and one star is the most common,
+					and that a system is likely to have more planets than stars.
+					It is also evident that there is a positive correlation
+					between the mass of a star and the temperature of the star,
+					as well as between the size of a star/planet and the length
+					of time it takes to transit (pass in front of the star).
+				</p>
+				<div id="viz1745812341064">
+					<noscript
+						><a href="#"
+							><img
+								alt="Stellar Story "
+								src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;St&#47;StellarStory&#47;StellarStory&#47;1_rss.png"
+								style="border: none" /></a></noscript
+					><object class="tableauViz" style="display: none">
+						<param
+							name="host_url"
+							value="https%3A%2F%2Fpublic.tableau.com%2F"
+						/>
+						<param name="embed_code_version" value="3" />
+						<param name="site_root" value="" />
+						<param
+							name="name"
+							value="StellarStory&#47;StellarStory"
+						/>
+						<param name="tabs" value="no" />
+						<param name="toolbar" value="yes" />
+						<param
+							name="static_image"
+							value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;St&#47;StellarStory&#47;StellarStory&#47;1.png"
+						/>
+						<param name="animate_transition" value="yes" />
+						<param name="display_static_image" value="yes" />
+						<param name="display_spinner" value="yes" />
+						<param name="display_overlay" value="yes" />
+						<param name="display_count" value="yes" />
+						<param name="language" value="en-US" />
+					</object>
+				</div>
+				<script type="text/javascript">
+					var divElement =
+						document.getElementById("viz1745812341064");
+					var vizElement =
+						divElement.getElementsByTagName("object")[0];
+					vizElement.style.width = "1016px";
+					vizElement.style.height = "991px";
+					var scriptElement = document.createElement("script");
+					scriptElement.src =
+						"https://public.tableau.com/javascripts/api/viz_v1.js";
+					vizElement.parentNode.insertBefore(
+						scriptElement,
+						vizElement
+					);
+				</script>
+			</div>
 		</div>
 		<div class="container" id="shiny-app">
+			<div class="container-header">
+				<h5>Galactic Map</h5>
+			</div>
 			<p>
 				Below is a map of every system in the galaxy that we have
 				discovered planets orbiting. By manipulating the sidebar, you
