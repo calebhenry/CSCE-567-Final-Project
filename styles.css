@@ -21,17 +21,7 @@ p {
 	color: #555;
 }
 
-#shiny-app iframe {
-	border: 2px solid #2c3e50;
-	border-radius: 8px;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-	margin: 20px auto;
-	display: block;
-	max-width: 90%;
-}
-
-#tableau-facility-story,
-#tableau-stellar-story {
+.container {
 	margin: 30px auto;
 	max-width: 90%;
 	background-color: #ffffff;
