@@ -5,17 +5,36 @@
 	</head>
 	<body>
 		<h3>Exoplanet Report</h3>
-		<p>Stuff</p>
-		<div id="shiny-app">
-			<iframe
-				id="galactic-map"
-				title="Galactic Exoplanet Map"
-				src="https://calebhenry2003.shinyapps.io/final_project/"
-				style="border: none; width: 100%; height: 600px"
-			></iframe>
-		</div>
-		<div id="tableau-facility-story">
-			<div class="tableauPlaceholder" id="viz1745797485222">
+		<p>
+			This website exists to inform those interested in astronomy about
+			how we find exoplanets, how that has changed over time, and the
+			results of those observations. All data on this page can be found
+			here at the
+			<a
+				href="https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=PS"
+				>NASA Exoplanet Archive</a
+			>.
+		</p>
+		<div class="container" id="tableau-facility-story">
+			<p>
+				Below is a a set of visualizations that show information about
+				the facilities that observe exoplanets. You can interact with
+				these by clicking through the two tabs, clicking on parts of the
+				legend, as well as hovering over points.There are a few key
+				takeaways here. Firstly, we can see that the vast majority of
+				these observations are made from space, specifically using the
+				transit method, which tracks stars dimming as a planet passes in
+				front of them. We also see that the only method used by space
+				telescopes is tracking transits, and all other methods are done
+				from the ground. This leads us to believe that space telescopes
+				are responsible for most observations. The Kepler Space
+				Telescope is responsible for a magnitude more planetary
+				discoveries than pretty much anything else. We see that K2 and
+				TESS, two other telescopes, also peak off the axis, but nothing
+				near the scale of Kepler. The final thing we see for this is
+				that the scopes can see a wide variety of spectral types.
+			</p>
+			<div id="viz1745797485222">
 				<noscript
 					><a href="#"
 						><img
@@ -58,8 +77,24 @@
 				vizElement.parentNode.insertBefore(scriptElement, vizElement);
 			</script>
 		</div>
-		<div id="tableau-stellar-story">
-			<div class="tableauPlaceholder" id="viz1745797587981">
+		<div class="container" id="tableau-stellar-story">
+			<p>
+				Below is a a set of visualizations that show information about
+				stars, the planets that orbit them, and how we have gotten
+				better at finding them over time. You can interact with these by
+				clicking through the three tabs, clicking on parts of the
+				legend, as well as hovering over points. There are a few key
+				takeaways here. Firstly, we have gotten better and better at
+				seeing smaller stars and planets over time, most likely due to
+				better technology. We also see that the combination of one
+				planet and one star is the most common, and that a system is
+				likely to have more planets than stars. It is also evident that
+				there is a positive correlation between the mass of a star and
+				the temperature of the star, as well as between the size of a
+				star/planet and the length of time it takes to transit (pass in
+				front of the star).
+			</p>
+			<div id="viz1745797587981">
 				<noscript
 					><a href="#"
 						><img
@@ -98,6 +133,28 @@
 					"https://public.tableau.com/javascripts/api/viz_v1.js";
 				vizElement.parentNode.insertBefore(scriptElement, vizElement);
 			</script>
+		</div>
+		<div class="container" id="shiny-app">
+			<p>
+				Below is a map of every system in the galaxy that we have
+				discovered planets orbiting. By manipulating the sidebar, you
+				can view different spectral types, as well as expand the range
+				of the map. The orange dot is Earth, and the light blue dots are
+				other systems. I highly recommend expanding the map to the
+				maximum range to see the overall patterns. You will notice that
+				the planets seem to move out from Earth in spokes, and that is
+				because we can only see the planets if they are at a particular
+				angle in reference to Earth. The particularly long one extends
+				along the galactic disk, which is more dense compared to the
+				others. When you see galactic x, y, and z, that refers to the
+				distance in light years the star is in that direction.
+			</p>
+			<iframe
+				id="galactic-map"
+				title="Galactic Exoplanet Map"
+				src="https://calebhenry2003.shinyapps.io/final_project/"
+				style="border: none; width: 100%; height: 600px"
+			></iframe>
 		</div>
 	</body>
 </html>
